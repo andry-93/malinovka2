@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "NexaScript";
+  src: url("../fonts/nexa/NexaScriptBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/nexa/NexaScriptBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/nexa/NexaScriptBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/nexa/NexaScriptBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/nexa/NexaScriptBold.woff") format("woff"); /* Modern Browsers */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswald/OswaldBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/oswald/OswaldBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/oswald/OswaldBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/oswald/OswaldBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/oswald/OswaldBold.woff") format("woff"); /* Modern Browsers */
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald';
+	font-weight: bold;
+}
+
+body {
+	color: #fff3e6;
+}
+
+a:hover {
+	color: #c96915;
+	text-decoration: none;
+}
+a {
+	color: #ff983b;
+}
+
+.gray {
+	background-color: #282525;
+}
+
+.bg-gray {
+	background-color: #2c2929;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #908882;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+	color: #c0b8b8;
+}
+
+.wrapper {
+	background-image: url("../img/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Header */
+.header {
+	font-size: 0.875rem;
+	padding: 10px 0;
+	color: #908882;
+}
+
+.phones a {
+	color: #908882;
+}
+
+.menu .nav-item {
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+
+.top-content {
+	position: relative;
+	overflow: hidden;
+}
+
+.slogon {
+	top: 20%;
+	font-size: 3.125rem;
+	font-family: "NexaScript";
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+	color: #ded3c8;
+	padding: 30px 45px;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	background: -webkit-gradient(linear,  left top, right top,  from(rgba(40,37,37,0.4)),color-stop(1%, rgba(40,37,37,0.4)),color-stop(90%, rgba(40,37,37,0.4)),color-stop(99%, rgba(40,37,37,0.1)),to(rgba(40,37,37,0.07)));
+	background: linear-gradient(to right,  rgba(40,37,37,0.4) 0%,rgba(40,37,37,0.4) 1%,rgba(40,37,37,0.4) 90%,rgba(40,37,37,0.1) 99%,rgba(40,37,37,0.07) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66282525', endColorstr='#12282525',GradientType=1 );
+}
+
+.time {
+	font-size: 0.875rem;
+	padding: 10px 0;
+	color: #908882;
+}
+
+.bunner {
+	position: relative;
+	overflow: hidden;
+}
+
+.bunner:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+}
+
+.bunner:before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	transform: translateZ(0) scale(1.0, 1.0);
+	background-image: url("../img/slide.jpg");
+	background-size: cover;
+	background-position-x: center;
+	background-attachment: fixed;
+	-webkit-animation: increase 60s linear 10ms infinite;
+	        animation: increase 60s linear 10ms infinite;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+@-webkit-keyframes increase {
+	0%{-webkit-transform: scale(1);transform: scale(1)}
+	50%{-webkit-transform: scale(1.2);transform: scale(1.2)}
+	100%{-webkit-transform: scale(1);transform: scale(1)}
+}
+
+@keyframes increase {
+	0%{-webkit-transform: scale(1);transform: scale(1)}
+	50%{-webkit-transform: scale(1.2);transform: scale(1.2)}
+	100%{-webkit-transform: scale(1);transform: scale(1)}
+}
+
+/* Main */
+.desc {
+	padding: 3.75rem 0;
+	color: #fff3e6;
+}
+
+.desc .title h2 {
+	font-size: 3.75rem;
+	line-height: 4.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.desc .title h2 strong {
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-top: 1rem;
+}
+
+.desc .text {
+	font-size: 1.5rem;
+}
+
+/* Footer */
+
+.h-border {
+	border-bottom: solid 2px #333333;
+	display: inline-block;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+	height: auto;
+}
+	
+.img-responsive.img-width {
+	width: 100%;
+}
