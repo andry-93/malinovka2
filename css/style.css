@@ -38,6 +38,7 @@ a:hover {
 
 a {
 	color: #ff983b;
+	-webkit-transition: .5s;
 	transition: .5s;
 }
 
@@ -63,9 +64,6 @@ a {
 
 .wrapper {
 	background: url("../img/bg.jpg") no-repeat center top fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
@@ -144,9 +142,6 @@ a {
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
 	/* transform: translateZ(0) scale(1.0, 1.0); */
 	background: url("../img/slide.jpg") no-repeat center top fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
 	background-attachment: fixed;
 	/* -webkit-animation: increase 60s linear 10ms infinite;
