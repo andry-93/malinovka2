@@ -33,6 +33,7 @@ body {
 	background: url("../img/bg.jpg") no-repeat center top fixed;
         background-size: cover;
 	background-attachment: fixed;
+	background-color: #2c2929;
 }
 
 a:hover {
@@ -128,6 +129,7 @@ a {
 	background: url("../img/slide.jpg") no-repeat center top fixed;
         background-size: cover;
 	background-attachment: fixed;
+	background-color: #2c2929;
 }
 
 /* Main */
@@ -191,7 +193,60 @@ a {
 	opacity: .7;
 }
 
+.sale {
+	background: url("../img/sale.jpg") no-repeat center center;
+	background-size: cover;
+	color: #a60d0d;
+	font-size: 2.25rem;
+	text-shadow: 0px 0px 7px rgba(255, 255, 255, .35);
+}
+
+.sale > .desc {
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.sale .percent-sale {
+	font-family: 'Oswald';
+	font-weight: bold;
+}
+
 /* Footer */
+
+.cont-footer {
+	font-size: .8em;
+	padding-top: 1rem;
+}
+
+.cont-footer ul {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1rem;
+}
+
+.cont-footer ul li {
+	list-style-type: none;
+}
+
+.copyright {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.social {
+	font-size: 1.5rem;
+}
+
+.social .fa-vk {
+	color: #4A76A8;
+}
+
+.social .fa-odnoklassniki-square {
+	color: #EE8208;
+}
+
+.social .fa-bootstrap {
+	color: #003580;
+}
 
 .h-border {
 	border-bottom: solid 2px #333333;
@@ -230,6 +285,12 @@ a {
 	.desc .title h2 strong {
     font-size: 3rem;
     padding-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	footer {
+		text-align: center;
 	}
 }
 
